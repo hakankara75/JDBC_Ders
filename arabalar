@@ -1,0 +1,21 @@
+CREATE TABLE personel (
+  personel_id INT,
+  ad VARCHAR(255) ,
+  soyad VARCHAR(255) ,
+  tc_kimlik_no CHAR(11),
+  dogum_tarihi DATE ,
+  cinsiyet CHAR(1) ,
+  eposta VARCHAR(255) ,
+  telefon_no VARCHAR(15),
+  adres TEXT,
+  ise_giris_tarihi DATE,
+  pozisyon VARCHAR(255) ,
+  maas DECIMAL(10,2),
+  departman_id INT,
+  yonetici_id INT
+);
+
+INSERT INTO personel VALUES (1, 'Ahmet', 'Yılmaz', '12345678901', '1980-01-01', 'E', 'ahmet.yilmaz@example.com', '5551234567', 'Ankara', '2023-01-01', 'Yazılım Mühendisi', 10000, 1, NULL);
+INSERT INTO personel VALUES  (2, 'Ayşe', 'Erdem', '23456789012', '1985-02-02', 'K', 'ayse.erdem@example.com', '5552345678', 'İstanbul', '2022-02-02', 'Pazarlama Uzmanı', 8000, 2, 1);
+
+select * from personel;
