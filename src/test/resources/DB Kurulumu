@@ -1,0 +1,18 @@
+DB BROWSER KURULUMU
+File menüsünde Settings linkine bas
+Açılan pencerede Plugins linkine bas
+Marketplace linkini seç
+Arama kutusuna "database navigator" yaz
+Çıkan sonuçlardan "database navigator" olanın Install butonuna bas
+Kurulum bitince Restart IDE butonuna bas
+Intellij yeninden başlayacak
+Sol tarafta DB Browser ikonu çıkacak
+DB Browser ikonuna bas
+DB Browser açılınca + işaretine bas
+Açılan listeden postgresql seç
+name kısmına isim girilebilir, isteğe bağlı
+host kısmına local ile çalışılacaksa: localhost ve
+port kısmına 5432 girilir
+database kısmına hangi database kullanılacak o girilir
+girilen database bağlanmak için user ve password girilir
+apply ve ok butonu tıklanır

@@ -19,8 +19,7 @@
       <change afterPath="$PROJECT_DIR$/../All_In_One_Framework/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/src/test/java/Base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/firstTest/Query03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ogrenciler" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DB Kurulumu" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JUnti5/src/test/java/Day_01_Annotations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/configuration.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/src/test/java/pages/OtelZ_Page.java" afterDir="false" />
@@ -61,17 +60,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Query01.testName.executor": "Run",
-    "TestNG.Query02.testName.executor": "Run",
-    "TestNG.Query03.testName.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Query01.testName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Query02.testName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Query03.testName.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.Query03.testName">
     <configuration name="Query01.testName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JDBC_Ders" />
