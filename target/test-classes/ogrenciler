@@ -1,0 +1,18 @@
+  CREATE TABLE ogrenciler (
+  ogrenci_id INT,
+  ogrenci_adi VARCHAR(50),
+  ogrenci_soyadi VARCHAR(50),
+  ogrenci_no INT,
+  ogrenci_bolumu VARCHAR(50),
+  ogrenci_dogum_tarihi DATE,
+  ogrenci_ortalama REAL
+);
+
+
+  INSERT INTO ogrenciler VALUES  (001,'Ayşe', 'Yılmaz', 123456789, 'Bilgisayar Mühendisliği', '2000-01-01', 3.50);
+  INSERT INTO ogrenciler VALUES (002,'Mehmet', 'Kara', 987654321, 'Matematik', '2001-02-02', 2.75);
+INSERT INTO ogrenciler VALUES   (003,'Fatma', 'Ak', 456789012, 'Fizik', '2002-03-03', 3.25);
+  INSERT INTO ogrenciler VALUES (004,'Ahmet', 'Deniz', 321098765, 'Kimya', '2003-04-04', 2.00);
+
+
+  select * from ogrenciler;

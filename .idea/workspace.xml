@@ -19,7 +19,8 @@
       <change afterPath="$PROJECT_DIR$/../All_In_One_Framework/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/src/test/java/Base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/firstTest/Query02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/firstTest/Query03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ogrenciler" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JUnti5/src/test/java/Day_01_Annotations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/configuration.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/src/test/java/pages/OtelZ_Page.java" afterDir="false" />
@@ -66,11 +67,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.Query01.testName.executor": "Run",
     "TestNG.Query02.testName.executor": "Run",
+    "TestNG.Query03.testName.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Query02.testName">
+  <component name="RunManager" selected="TestNG.Query03.testName">
     <configuration name="Query01.testName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JDBC_Ders" />
       <extension name="coverage">
@@ -107,8 +109,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Query03.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_Ders" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firstTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="firstTest" />
+      <option name="MAIN_CLASS_NAME" value="firstTest.Query03" />
+      <option name="METHOD_NAME" value="testName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Query03.testName" />
         <item itemvalue="TestNG.Query02.testName" />
         <item itemvalue="TestNG.Query01.testName" />
       </list>
