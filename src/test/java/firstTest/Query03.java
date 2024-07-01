@@ -16,7 +16,7 @@ public class Query03 {
         Connection connection= DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/Deneme",
                 "postgres",
-                ",533Burak"
+                "123456"
         );
 
         //3. Adım: Statement Oluştur
