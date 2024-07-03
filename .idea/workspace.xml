@@ -19,8 +19,7 @@
       <change afterPath="$PROJECT_DIR$/../All_In_One_Framework/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/src/test/java/Base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/firstTest/Query05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ogrenci_bilgiler" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/firstTest/Query06.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JUnti5/src/test/java/Day_01_Annotations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/configuration.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/src/test/java/pages/OtelZ_Page.java" afterDir="false" />
@@ -32,7 +31,6 @@
       <change afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/hooks/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_Tutklunlari_API_Project/src/test/java/get/Get_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Tutklunlari_API_Project/src/test/java/get/Get_01.java" afterDir="false" />
     </list>
@@ -76,6 +74,7 @@
     "TestNG.Query05.testName.executor": "Run",
     "TestNG.Query05.testName1.executor": "Run",
     "TestNG.Query05.testName2.executor": "Run",
+    "TestNG.Query06.testName.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Artifacts",
@@ -89,25 +88,7 @@
       <recent name="firstTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Query05.testName2">
-    <configuration name="Query04.testName2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_Ders" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="firstTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Query04" />
-      <option name="METHOD_NAME" value="testName2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Query06.testName">
     <configuration name="Query04.testName3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JDBC_Ders" />
       <extension name="coverage">
@@ -180,13 +161,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Query06.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_Ders" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firstTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="firstTest" />
+      <option name="MAIN_CLASS_NAME" value="firstTest.Query06" />
+      <option name="METHOD_NAME" value="testName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Query06.testName" />
         <item itemvalue="TestNG.Query05.testName2" />
         <item itemvalue="TestNG.Query05.testName1" />
         <item itemvalue="TestNG.Query05.testName" />
         <item itemvalue="TestNG.Query04.testName3" />
-        <item itemvalue="TestNG.Query04.testName2" />
       </list>
     </recent_temporary>
   </component>
