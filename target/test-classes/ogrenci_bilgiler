@@ -1,0 +1,25 @@
+CREATE TABLE ogrenci_bilgiler(
+ingilizce_notu INT not null,
+	not_ortalamasi REAL not null,
+	kulup_calismasi VARCHAR(50 ) not null,
+	cinsiyet VARCHAR(5) not null,
+	bolum VARCHAR(50 ) not null
+)
+
+INSERT INTO ogrenci_bilgiler (ingilizce_notu ,not_ortalamasi ,kulup_calismasi ,
+	cinsiyet ,bolum)
+	VALUES
+	(15, 56, 'Havacılık', 'Erkek', 'Bilgisayar Mühendisliği'),
+	(27, 67, 'Maket', 'Kadın', 'Elektrik Mühendisliği'),
+	(39, 89, 'Ebru', 'Erkek', 'Matematik'),
+	(46, 34, 'Gitar', 'Erkek', 'Bilgisayar Mühendisliği'),
+	(95, 90, 'Çini', 'Kadın', 'Elektrik Mühendisliği'),
+	(39, 89, 'Ebru', 'Erkek', 'Matematik'),
+	(15, 56, 'Havacılık', 'Erkek', 'Bilgisayar Mühendisliği'),
+	(27, 67, 'Maket', 'Kadın', 'Elektrik Mühendisliği'),
+	(39, 89, 'Ebru', 'Erkek', 'Matematik'),
+	(46, 34, 'Gitar', 'Erkek', 'Bilgisayar Mühendisliği'),
+	(95, 90, 'Çini', 'Kadın', 'Elektrik Mühendisliği'),
+	(39, 89, 'Ebru', 'Erkek', 'Matematik');
+
+	select * from ogrenci_bilgiler
