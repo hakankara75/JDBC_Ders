@@ -19,8 +19,6 @@
       <change afterPath="$PROJECT_DIR$/../All_In_One_Framework/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/src/test/java/Base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/firstTest/Query07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/giderler" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JUnti5/src/test/java/Day_01_Annotations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/configuration.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/src/test/java/pages/OtelZ_Page.java" afterDir="false" />
@@ -32,7 +30,6 @@
       <change afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/hooks/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_Tutklunlari_API_Project/src/test/java/get/Get_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Tutklunlari_API_Project/src/test/java/get/Get_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +73,7 @@
     "TestNG.Query05.testName1.executor": "Run",
     "TestNG.Query05.testName2.executor": "Run",
     "TestNG.Query06.testName.executor": "Run",
+    "TestNG.Query07.testName (1).executor": "Run",
     "TestNG.Query07.testName.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
