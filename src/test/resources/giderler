@@ -1,0 +1,13 @@
+CREATE TABLE giderler (
+  gider_id INT UNIQUE,
+  tutar DECIMAL(10,2) PRIMARY KEY,
+  harcama_kalemi VARCHAR(50) NOT NULL
+);
+
+INSERT INTO giderler (gider_id, tutar, harcama_kalemi)
+VALUES
+  (1, 150.00, 'Kırtasiye Malzemesi'),
+  (2, 200.00, 'Ofis Kirası'),
+  (3, 300.00, 'Maaş');
+
+select * from giderler

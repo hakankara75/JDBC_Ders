@@ -17,7 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="ca184c08-200b-4c7c-8be8-2b3b7ac68f5b">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ogrenciler]]></console>
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from giderler]]></console>
     </connection>
     <connection id="4f894fcf-5941-4ff9-a71d-64e9e9fd14b7">
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
@@ -27,13 +27,20 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="ca184c08-200b-4c7c-8be8-2b3b7ac68f5b" object-ref="consoles/Connection" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="ca184c08-200b-4c7c-8be8-2b3b7ac68f5b" />
     <connection id="4f894fcf-5941-4ff9-a71d-64e9e9fd14b7" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="ca184c08-200b-4c7c-8be8-2b3b7ac68f5b" dataset="public.angaralilar" active-filter-id="e0597be4-2f9b-4e4d-9aed-9b2cecabffa1">
+      <filter id="e0597be4-2f9b-4e4d-9aed-9b2cecabffa1" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="isim" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="ca184c08-200b-4c7c-8be8-2b3b7ac68f5b" dataset="public.giderler" active-filter-id="" />
+    <filter-actions connection-id="ca184c08-200b-4c7c-8be8-2b3b7ac68f5b" dataset="public.cep_telefonlari" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
@@ -564,7 +571,7 @@
       <transactions>
         <uncommitted-changes>
           <on-project-close value="ASK" />
-          <on-disconnect value="ASK" />
+          <on-disconnect value="COMMIT" />
           <on-autocommit-toggle value="ASK" />
         </uncommitted-changes>
         <multiple-uncommitted-changes>
