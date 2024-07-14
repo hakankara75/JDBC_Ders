@@ -17,7 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="ca184c08-200b-4c7c-8be8-2b3b7ac68f5b">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from giderler]]></console>
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from angaralilar]]></console>
     </connection>
     <connection id="4f894fcf-5941-4ff9-a71d-64e9e9fd14b7">
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
@@ -27,7 +27,9 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="ca184c08-200b-4c7c-8be8-2b3b7ac68f5b" object-ref="consoles/Connection" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="ca184c08-200b-4c7c-8be8-2b3b7ac68f5b" />
