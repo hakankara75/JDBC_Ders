@@ -9,8 +9,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertTrue;
 import static utilities.DatabaseUtilty.*;
-import static utilities.JdbcUtils.connectToDataBase;
-import static utilities.JdbcUtils.createStatement;
+import static utilities.JdbcUtils.*;
 
 public class Query09 {
 
@@ -59,5 +58,6 @@ public class Query09 {
 
         assertTrue("Deneme databesinde aranan değer bulunamadı",counter>0);
 
+        closeConnectionAndStatement();
     }
 }
