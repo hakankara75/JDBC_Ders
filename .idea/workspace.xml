@@ -19,8 +19,7 @@
       <change afterPath="$PROJECT_DIR$/../All_In_One_Framework/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/src/test/java/Base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DatabaseUtilty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/firstTest/Query09.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JUnti5/src/test/java/Day_01_Annotations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/configuration.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/src/test/java/pages/OtelZ_Page.java" afterDir="false" />
@@ -30,10 +29,13 @@
       <change afterPath="$PROJECT_DIR$/../otelZ/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/src/test/resources/Otelz.apk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/baseUrl/Reqres_BaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/baseUrl/Reqres_BaseUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/hooks/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/runner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DatabaseUtilty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DatabaseUtilty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/firstTest/Query08.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/firstTest/Query08.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_Tutklunlari_API_Project/src/test/java/get/Get_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Tutklunlari_API_Project/src/test/java/get/Get_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +66,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.Query09.name.executor": "Run",
+    "JUnit.Query09.positiveTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.Query01.testName.executor": "Run",
@@ -82,7 +86,7 @@
     "TestNG.Query08.testName.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Hakan/IdeaProjects/JDBC_Ders/src/test/java",
+    "last_opened_file_path": "C:/Users/Hakan/IdeaProjects/JDBC_Ders/src/test/java/utilities",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -91,14 +95,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hakan\IdeaProjects\JDBC_Ders\src\test\java\utilities" />
       <recent name="C:\Users\Hakan\IdeaProjects\JDBC_Ders\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="firstTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Query08.testName">
-    <configuration name="Query05.testName2" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Query09.name">
+    <configuration name="Query09.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_Ders" />
       <extension name="coverage">
         <pattern>
@@ -107,16 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Query05" />
-      <option name="METHOD_NAME" value="testName2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="firstTest.Query09" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Query06.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Query09.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_Ders" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +128,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Query06" />
-      <option name="METHOD_NAME" value="testName" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="firstTest.Query09" />
+      <option name="METHOD_NAME" value="positiveTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Query09.name" />
+        <item itemvalue="JUnit.Query09.positiveTest" />
         <item itemvalue="TestNG.Query08.testName" />
         <item itemvalue="TestNG.Query07.testName (1)" />
         <item itemvalue="TestNG.Query07.testName" />
-        <item itemvalue="TestNG.Query06.testName" />
-        <item itemvalue="TestNG.Query05.testName2" />
       </list>
     </recent_temporary>
   </component>

@@ -13,9 +13,9 @@ public class DatabaseUtilty {
      * Bu metot ile database ile connection kurulur
      */
     public static void createConnection() {
-        String url = "jdbc:postgresql://localhost:5432/jdbc";
+        String url = "jdbc:postgresql://localhost:5432/Deneme";
         String user = "postgres";
-        String password = "12345";
+        String password = "123456";
         try {
             connection = DriverManager.getConnection(url, user, password);
         } catch (SQLException e) {
