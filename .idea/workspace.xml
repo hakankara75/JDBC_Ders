@@ -19,7 +19,12 @@
       <change afterPath="$PROJECT_DIR$/../All_In_One_Framework/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cucumber_Run_From_JarFile/src/test/java/Base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/firstTest/Query10.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JUnti5/src/test/java/Day_01_Annotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spotify_API/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spotify_API/src/test/java/BaseUrl/SpotifyBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spotify_API/src/test/java/Test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spotify_API/src/test/java/Test/Test_01.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/configuration.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/src/test/java/pages/OtelZ_Page.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../otelZ/src/test/java/stepdef/OtelZ_StepDef.java" afterDir="false" />
@@ -31,9 +36,8 @@
       <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/baseUrl/Reqres_BaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/baseUrl/Reqres_BaseUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/hooks/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_Test_Cucumber_Framework_Youtube/src/test/java/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/firstTest/Query09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstTest/Query09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DatabaseUtilty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DatabaseUtilty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_Tutklunlari_API_Project/src/test/java/get/Get_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Tutklunlari_API_Project/src/test/java/get/Get_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +72,10 @@
     "JUnit.Query09.negativeTest1.executor": "Run",
     "JUnit.Query09.negativeTest2.executor": "Run",
     "JUnit.Query09.positiveTest.executor": "Run",
+    "JUnit.Query10.positiveTest1.executor": "Run",
+    "JUnit.Query10.positiveTest2.executor": "Run",
+    "JUnit.Query10.positiveTest3.executor": "Run",
+    "JUnit.Query10.positiveTest4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.Query01.testName.executor": "Run",
@@ -102,39 +110,7 @@
       <recent name="firstTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Query09.negativeTest2">
-    <configuration name="Query09.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_Ders" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="firstTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Query09" />
-      <option name="METHOD_NAME" value="name" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Query09.negativeTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC_Ders" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="firstTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Query09" />
-      <option name="METHOD_NAME" value="negativeTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Query10.positiveTest4">
     <configuration name="Query09.negativeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_Ders" />
       <extension name="coverage">
@@ -151,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Query09.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Query10.positiveTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_Ders" />
       <extension name="coverage">
         <pattern>
@@ -160,14 +136,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Query09" />
-      <option name="METHOD_NAME" value="positiveTest" />
+      <option name="MAIN_CLASS_NAME" value="firstTest.Query10" />
+      <option name="METHOD_NAME" value="positiveTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Query08.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Query10.positiveTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC_Ders" />
       <extension name="coverage">
         <pattern>
@@ -176,22 +152,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="firstTest" />
-      <option name="MAIN_CLASS_NAME" value="firstTest.Query08" />
-      <option name="METHOD_NAME" value="testName" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="firstTest.Query10" />
+      <option name="METHOD_NAME" value="positiveTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Query10.positiveTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_Ders" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firstTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="firstTest" />
+      <option name="MAIN_CLASS_NAME" value="firstTest.Query10" />
+      <option name="METHOD_NAME" value="positiveTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Query10.positiveTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC_Ders" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firstTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="firstTest" />
+      <option name="MAIN_CLASS_NAME" value="firstTest.Query10" />
+      <option name="METHOD_NAME" value="positiveTest4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Query10.positiveTest4" />
+        <item itemvalue="JUnit.Query10.positiveTest3" />
+        <item itemvalue="JUnit.Query10.positiveTest2" />
+        <item itemvalue="JUnit.Query10.positiveTest1" />
         <item itemvalue="JUnit.Query09.negativeTest2" />
-        <item itemvalue="JUnit.Query09.negativeTest1" />
-        <item itemvalue="JUnit.Query09.name" />
-        <item itemvalue="JUnit.Query09.positiveTest" />
-        <item itemvalue="TestNG.Query08.testName" />
       </list>
     </recent_temporary>
   </component>
