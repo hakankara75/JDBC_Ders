@@ -9,8 +9,6 @@ import java.util.List;
         private static Connection connection;
         private static Statement statement;
         private static ResultSet resultSet;
-        //1. Adım: Driver'a kaydol
-        //2. Adım: Datbase'e bağlan
 
         /**
          * Bu metot ile bir database'e bağlanılır
@@ -39,9 +37,6 @@ import java.util.List;
             return connection;
         }
 
-
-        //3. Adım: Statement oluştur.
-
         /**
          * Bu metot ile Statement kurulur
          * @return tipi Statement dır
@@ -55,8 +50,6 @@ import java.util.List;
             }
             return statement;
         }
-
-        //4. Adım: Query çalıştır.
 
         /**
          * Bu metot ile bir DB üzerinde özel bir bilginin varlığını öğrenmek için query oluşturulur
@@ -72,8 +65,6 @@ import java.util.List;
             }
             return isExecute;
         }
-
-        //5. Adım: Bağlantı ve Statement'ı kapat.
 
         /**
          * Bu metot ile Connection ve Statement kapatılır
@@ -96,7 +87,6 @@ import java.util.List;
             }
         }
 
-        //6. Adım: Table oluşturan method
 
         /**
          * Bu metot ile bir DB üzerinde ismi verilen tablo oluşturulur
@@ -116,9 +106,7 @@ import java.util.List;
                 throw new RuntimeException(e);
             }
         }
-        //ÖDEV:
 
-        //ExecuteQuery methodu
         public static ResultSet executeQuery(String query) {
             try {
                 resultSet = statement.executeQuery(query);
@@ -128,7 +116,7 @@ import java.util.List;
             return resultSet;
         }
 
-        //ExecuteUpdate methodu
+
         /**
          * Bu metot ile bir tabloya veri eklenir ve kaç satır veri eklendiği rakam olarak döner
          * @param query yerine eklenecek veri yazılır
@@ -143,8 +131,6 @@ import java.util.List;
             }
             return guncellenenSatirSayisi;
         }
-
-        //Table'a data girme methodu
 
         /**
          * Bu metot bir tabloya veri eklemeye yarar
@@ -166,7 +152,6 @@ import java.util.List;
             System.out.println("Data " + tableName + " tablosuna girildi.");
         }
 
-        //Sütun Değerlerini List içerisine alan method
         /**
          * Bu metot ile bir sütundaki veriler List içine atılır
          * @param columnName yerine verisi çekilecek sütun adı
